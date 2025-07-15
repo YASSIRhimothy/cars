@@ -1,0 +1,154 @@
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', ;
+
+    background-color: #FAF3E0;
+
+    margin: 0;
+    padding: 20px;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333333;
+    color: #D2B48C;
+}
+
+
+
+h1,
+h2,
+h3 {
+    color: #1539eef1;
+
+}
+
+p {
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+nav ul a li {
+    background-color: #697ef4;
+    color: #fff;
+    padding: 10px 20px;
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+    font-weight: bold;
+
+}
+
+
+
+button {
+    border-radius: 10px;
+    background-color:#5046E5 ;
+    color:#fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: #3b3bff;
+    cursor: pointer;
+}
+
+form {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 12px;
+
+    max-width: 400px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+}
+
+.flex-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.flex-item img {
+    height: 400px;
+width: 100%;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+     display: flex;
+  justify-content: space-around;
+}
+
+.address {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ede614;
+}
+.contact-details {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #31d454;
+}
+.contact-phone {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #e12525;
+}
+
